@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`lrndesign-diff2html`
+A LRN element
+
+@demo demo/index.html
+-->
+
+<dom-module id="lrndesign-diff2html">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>[[title]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'lrndesign-diff2html',
+
+      properties: {
+        title: {
+          type: String,
+          value: 'lrndesign-diff2html',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
